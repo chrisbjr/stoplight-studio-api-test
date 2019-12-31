@@ -59,12 +59,12 @@ components:
       type: object
       properties:
         total:
-          type: string
+          type: integer
         count:
-          type: string
+          type: integer
         per_page:
-          type: string
+          type: integer
         current_page:
-          type: string
+          type: integer
         total_pages:
-          type: string
+          type: integer
