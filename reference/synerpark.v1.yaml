@@ -29,7 +29,11 @@ paths:
                       pagination:
                         $ref: '#/components/schemas/Pagination'
       operationId: get-cities
-      requestBody: {}
+      parameters:
+        - schema:
+            type: integer
+          in: query
+          name: page
 components:
   schemas:
     City:
